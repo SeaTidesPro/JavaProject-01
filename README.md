@@ -42,12 +42,11 @@
 
 三、项目设计结构
 
-Customer.java为实体对象，用来封装客户信息。
+1.Customer.java为实体对象，用来封装客户信息。
 
-CustomerView.java 为主模块，负责菜单的显示和处理用户操作。
+2.CustomerView.java 为主模块，负责菜单的显示和处理用户操作。
 
-CustomerList.java为Customer.java的管理模块，内部用数组管理一组Customer对象，并提供相应的添加、修改、删除和遍历方法，供CustomerView.java调用。
-
+3.CustomerList.java为Customer.java的管理模块，内部用数组管理一组Customer对象，并提供相应的添加、修改、删除和遍历方法，供CustomerView.java调用。
 
                                      
 三、Java开发能力需求
